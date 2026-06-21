@@ -1,3 +1,5 @@
+//used for fast reload
+
 const { getDefaultConfig, mergeConfig } = require('@react-native/metro-config');
 
 /**

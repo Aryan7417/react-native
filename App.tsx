@@ -1,45 +1,42 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
+// import React from 'react'
+// import { Text, View, Button } from 'react-native'
 
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
-import {
-  SafeAreaProvider,
-  useSafeAreaInsets,
-} from 'react-native-safe-area-context';
+// const App = () => {
+//   return (
+//     <View>
 
-function App() {
-  const isDarkMode = useColorScheme() === 'dark';
+//       <Text style={{
+//         fontSize: 40,
+//         textAlign: 'auto',
+//         paddingTop: 110,
+//         color: "green",
 
-  return (
-    <SafeAreaProvider>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <AppContent />
-    </SafeAreaProvider>
-  );
-}
+//       }}
+//       >this is react-native</Text>
 
-function AppContent() {
-  const safeAreaInsets = useSafeAreaInsets();
+//       <Text style={{ fontSize: 30 }}
+//       >this is REACT_NATIVCE</Text>
+//       <Button title='press hear' ></Button>
+      
+      
+      
+//       <Text style={{
+//         fontSize: 23,
+//       }}>
+//         next step</Text>
+      
+//       <Button title='transition'></Button>
+      
+//       <Text style={{
+//         fontSize: 23,
+//       }}>
+//         next step</Text>
 
-  return (
-    <View style={styles.container}>
-      <NewAppScreen
-        templateFileName="App.tsx"
-        safeAreaInsets={safeAreaInsets}
-      />
-    </View>
-  );
-}
+//       <Button title='aryan'></Button>
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
+//     </View>
 
-export default App;
+//   )
+// }
+
+// export default App
