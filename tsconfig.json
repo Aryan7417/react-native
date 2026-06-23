@@ -3,6 +3,6 @@
   "compilerOptions": {
     "types": ["jest"]
   },
-  "include": ["**/*.ts", "**/*.tsx", "ButtonOnPress.jsx"],
+  "include": ["**/*.ts", "**/*.tsx", "introduction of raect-native/ButtonOnPress.jsx", "introduction of raect-native/hellostyle.jsx"],
   "exclude": ["**/node_modules", "**/Pods"]
 }

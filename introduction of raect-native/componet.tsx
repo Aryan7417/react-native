@@ -1,15 +1,18 @@
 import React from 'react'
 import { View,Text } from 'react-native' 
 //import ButtonOnPress from './ButtonOnPress.jsx'
-import Props from './Props.tsx'
+//import Props from './Props.tsx'
 
+import Hellostyle from './hellostyle.jsx'
 
 
 const componet = () => {
   return (
     <View style={{backgroundColor:'#C2B551'}}>
-        <Text style={{fontSize:23 ,padding:45,color:"red"}}>------Testing the code--------</Text>\
-        <Props/>
+        <Text style={{fontSize:23 ,padding:40,color:"red"}}>------Testing the code--------</Text>
+        
+        <Hellostyle/>
+     
     </View>
   )
 }
