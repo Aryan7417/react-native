@@ -5,18 +5,20 @@ import { View,Text } from 'react-native'
 
 //import Hellostyle from './hellostyle.jsx'
 //import InputVAlue from './inputVAlue'
-import SimpleForm from './SimpleForm'
+//import SimpleForm from './SimpleForm'
+import ListAndFlatList from './ListAndFlatList.jsx'
 
 const componet = () => {
   return (
     <View style={{backgroundColor:'#C2B551'}}>
-        <Text style={{fontSize:23 ,padding:40,color:"red"}}>------Testing the code--------</Text>
-        <SimpleForm/>
-        
-          
+        <Text style={{fontSize:23 ,padding:50,color:"red"}}>------Testing the code--------</Text>
+        <ListAndFlatList/>
+  
     </View>
   )
+
 }
+
 
 
 // const Appdata=()=>{
