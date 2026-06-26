@@ -6,13 +6,16 @@ import { View,Text } from 'react-native'
 //import Hellostyle from './hellostyle.jsx'
 //import InputVAlue from './inputVAlue'
 //import SimpleForm from './SimpleForm'
-import ListAndFlatList from './ListAndFlatList.jsx'
+//import ListAndFlatList from './ListAndFlatList.jsx'
+import Map from '../introduction of raect-native/Map.jsx'
+
 
 const componet = () => {
   return (
     <View style={{backgroundColor:'#C2B551'}}>
         <Text style={{fontSize:23 ,padding:50,color:"red"}}>------Testing the code--------</Text>
-        <ListAndFlatList/>
+        <Map/>
+        
   
     </View>
   )
