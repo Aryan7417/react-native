@@ -9,17 +9,18 @@ import { View,Text } from 'react-native'
 //import ListAndFlatList from './ListAndFlatList.jsx'
 //import Map from '../introduction of raect-native/Map.jsx'
 //import Grid from './grid.jsx'
-import Flatlist from './Flatlist.jsx' 
+//import Flatlist from './Flatlist.jsx' 
+import Sectionlist from './Sectionlist.jsx'
 
 
 const componet = () => {
   return (
     <View style={{backgroundColor:'#C2B551'}}>
         <Text style={{fontSize:23 ,padding:50,color:"red"}}>------Testing the code--------</Text>
-        <Flatlist/>
-        
+        <Sectionlist/>
   
     </View>
+
   )
 
 }
