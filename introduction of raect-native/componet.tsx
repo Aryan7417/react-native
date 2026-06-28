@@ -11,13 +11,19 @@ import { View,Text } from 'react-native'
 //import Grid from './grid.jsx'
 //import Flatlist from './Flatlist.jsx' 
 //import Sectionlist from './Sectionlist.jsx'
-import ClasssCOmp from './ClasssCOmp.jsx'
+//import ClasssCOmp from './ClasssCOmp.jsx'
+import Hooks from './Hooks.tsx'
+
+
+
+
+
 
 const componet = () => {
   return (
     <View style={{backgroundColor:'#C2B551'}}>
         <Text style={{fontSize:23 ,padding:50,color:"red"}}>------Testing the code--------</Text>
-        <ClasssCOmp/>
+        <Hooks/>
         
   
     </View>
