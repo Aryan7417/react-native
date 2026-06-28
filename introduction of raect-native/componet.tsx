@@ -13,7 +13,8 @@ import { View,Text } from 'react-native'
 //import Sectionlist from './Sectionlist.jsx'
 //import ClasssCOmp from './ClasssCOmp.jsx'
 //import Hooks from './Hooks.tsx'
-import HideComp from './HideComp.tsx'
+//import HideComp from './HideComp.tsx'
+//import CompUnmount from './CompUnmount.tsx'
 
 
 
@@ -24,7 +25,8 @@ const componet = () => {
   return (
     <View style={{backgroundColor:'#C2B551'}}>
         <Text style={{fontSize:23 ,padding:50,color:"red"}}>------Testing the code--------</Text>
-        <HideComp/>
+          
+        
         
   
     </View>
