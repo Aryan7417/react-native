@@ -4,6 +4,29 @@ import {View,Text,StyleSheet,TouchableOpacity } from 'react-native'
 
 const Radio = () => {
 
+    const skils=[
+        {
+            id:1,
+            name:'java'
+        },
+
+        {
+            id:2,
+            name:'IOT'
+        },
+
+        {
+            id:3,
+            name:'Rob'
+        },
+
+        {
+            id:4,
+            name:'SQL'
+        },
+    ]
+
+    
 
     const [radio,setRadio]=useState(1)
 
@@ -11,37 +34,25 @@ const Radio = () => {
 
   return (
     <View style={styles.main}>
-        <TouchableOpacity onPress={()=>setRadio(1)}>
+        {
+            skils.map((item,index)=> <TouchableOpacity
+            key={index}
+            onPress={()=>setRadio(item.id)}>
         <View style={styles.radioWrapper}>
             <View style={styles.radio}>
                 {
-                    radio===1? <View style={styles.radiobg}></View>:null
+                    radio===item.id? <View style={styles.radiobg}></View>:null
                 }
                 
             </View>
             
-                <Text style={styles.ratioText}> Radio 1</Text>
+                <Text style={styles.ratioText}> {item.name}</Text>
 
         </View>
 
-        </TouchableOpacity>
-        
-
-        <TouchableOpacity onPress={()=>setRadio(2)}>
-        <View style={styles.radioWrapper}>
-            <View style={styles.radio}>
-                {
-                    radio===2? <View style={styles.radiobg}></View>:null
-                }
-            </View>
-            
-                <Text style={styles.ratioText}> Radio 2</Text>
-
-        </View>
-
-        </TouchableOpacity>
-
-
+        </TouchableOpacity>)
+        }
+       
 
     </View>
   )
@@ -54,7 +65,7 @@ const styles = StyleSheet.create({
         justifyContent:'center'
     },
     ratioText:{
-        fontSize:30,
+        fontSize:30, color:'rgb(163, 44, 8)'
     },
     radio:{
         height:40,
@@ -80,3 +91,21 @@ const styles = StyleSheet.create({
 
 
 export default Radio
+
+
+{/* 
+        <TouchableOpacity onPress={()=>setRadio(2)}>
+        <View style={styles.radioWrapper}>
+            <View style={styles.radio}>
+                {
+                    radio===2? <View style={styles.radiobg}></View>:null
+                }
+            </View>
+            
+                <Text style={styles.ratioText}> Radio 2</Text>
+
+        </View>
+
+        </TouchableOpacity> */}
+
+
