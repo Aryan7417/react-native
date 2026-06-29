@@ -9,7 +9,7 @@ const STyless = () => {
       </TouchableHighlight>
 
       <TouchableHighlight>
-        <Text style={[styles.botton,styles.success]}>success</Text>
+        <Text style={[styles.botton,styles.success]}>success</Text> 
       </TouchableHighlight>
 
       <TouchableHighlight>
