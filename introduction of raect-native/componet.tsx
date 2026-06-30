@@ -16,7 +16,8 @@ import { View,Text } from 'react-native'
 //import HideComp from './HideComp.tsx'
 //import CompUnmount from './CompUnmount.tsx'
 ///import STylessf from './STyless.tsx'
-import Radio from './Radio.tsx'
+// import Radio from './Radio.tsx'
+import Loader from './Loader.tsx'
 
 
 
@@ -27,9 +28,8 @@ const componet = () => {
   return (
     <View style={{backgroundColor:'#C2B551'}}>
         <Text style={{fontSize:23 ,padding:100,color:"red"}}>------Testing the code--------</Text>
-        <Radio/>
+        <Loader/>
         
-          
         
         
   
