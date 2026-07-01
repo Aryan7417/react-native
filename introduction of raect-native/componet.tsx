@@ -17,7 +17,8 @@ import { View,Text } from 'react-native'
 //import CompUnmount from './CompUnmount.tsx'
 ///import STylessf from './STyless.tsx'
 // import Radio from './Radio.tsx'
-import Loader from './Loader.tsx'
+//import Loader from './Loader.tsx'
+import Moodal from './Moodal.tsx'
 
 
 
@@ -28,7 +29,8 @@ const componet = () => {
   return (
     <View style={{backgroundColor:'#C2B551'}}>
         <Text style={{fontSize:23 ,padding:100,color:"red"}}>------Testing the code--------</Text>
-        <Loader/>
+
+     <Moodal/>   
         
         
         
@@ -71,3 +73,15 @@ const componet = () => {
 // }
 
 export default componet
+
+
+
+
+
+
+
+
+
+
+
+

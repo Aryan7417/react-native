@@ -26,7 +26,7 @@ const Loader = () => {
 const styles=StyleSheet.create({
     main:{
         alignItems:'center',
-        textAlign:'center',
+        textAlign:"center"
     }
 })
 
