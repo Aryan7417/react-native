@@ -18,8 +18,8 @@ import { View,Text } from 'react-native'
 ///import STylessf from './STyless.tsx'
 // import Radio from './Radio.tsx'
 //import Loader from './Loader.tsx'
-import Moodal from './Moodal.tsx'
-
+//import Moodal from './Moodal.tsx'
+import LongPress from './LongPress.tsx'
 
 
 
@@ -30,7 +30,9 @@ const componet = () => {
     <View style={{backgroundColor:'#C2B551'}}>
         <Text style={{fontSize:23 ,padding:100,color:"red"}}>------Testing the code--------</Text>
 
-     <Moodal/>   
+        <LongPress/>
+
+     
         
         
         
