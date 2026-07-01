@@ -19,7 +19,8 @@ import { View,Text } from 'react-native'
 // import Radio from './Radio.tsx'
 //import Loader from './Loader.tsx'
 //import Moodal from './Moodal.tsx'
-import LongPress from './LongPress.tsx'
+//import LongPress from './LongPress.tsx'
+import Statusbar from './StatusBar.tsx'  
 
 
 
@@ -29,8 +30,9 @@ const componet = () => {
   return (
     <View style={{backgroundColor:'#C2B551'}}>
         <Text style={{fontSize:23 ,padding:100,color:"red"}}>------Testing the code--------</Text>
+        <Statusbar/>
 
-        <LongPress/>
+        
 
      
         
