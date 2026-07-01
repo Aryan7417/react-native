@@ -11,7 +11,7 @@ const Statusbar = () => {
         <StatusBar
         
         backgroundColor='blue'
-        hidden={}
+      
     
         />
         <Button title='Toggle status bar' onPress={()=>sethide(!hide)}/>
